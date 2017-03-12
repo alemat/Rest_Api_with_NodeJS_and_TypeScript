@@ -7,9 +7,5 @@ export function findAllHouseHolds():Bluebird<HouseHoldSummary[]>{
         order: ['id']
     })
         .then(createHouseHoldSummaries);
-/*  .then(dbModel => {
-            return createHouseHoldSummary(dbModel);
-        })
- */
 }
 
