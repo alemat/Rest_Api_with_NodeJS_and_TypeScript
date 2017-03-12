@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "strictNullChecks": true,
+        "noEmitOnError": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "lib": ["es6"],
+        "skipLibCheck": true
+    },
+    "exclude": ["client/node_modules"]
+}

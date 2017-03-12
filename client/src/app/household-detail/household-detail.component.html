@@ -1,0 +1,18 @@
+<h2>{{houseHoldDetail?.description}}</h2>
+
+
+  <div class="lessons-list-container v-h-center-block-parent">
+    <table class="table lessons-list card card-strong">
+      <tbody>
+      <tr *ngFor="let lesson of houseHoldDetail?.householdmembers">
+        <td class="lesson-title">{{householdmember.description}}</td>
+        <td class="duration"></td>
+        <i class="md-icon duration-icon">access_time</i>
+        <span>{{householdmember.duration}}</span>
+
+      </tr>
+      </tbody>
+
+    </table>
+
+  </div>
